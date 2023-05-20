@@ -1,12 +1,13 @@
-This code will take generate the csv data required for anonymize the PII data like first name, last name and address
-1) Input for the python code is no of rows csv data to be generated . ex: 500,1000 etc
-2) Python code will output the following
-    a) Save the generated input csv data in current working dir
-    b) Save the anonymized csv file in the current working dir
-3) Python code will  anonymize the input data for the columns 'first_name', 'last_name', 'address' using
-    a) Sha256 algorithm 
-    b) Using random values for ascii and degits
+This code will anonymize the PII data like first name, last name, address etc.
+1) Input for the python code is no of rows csv data to be generated ex: 500,1000 etc.
+2) Generates the fake data and saves the generated csv file in current working dir.
+3) Anonymize the input csv data using 2 methods for the columns 'first name', 'last name', 'address' using
+     a) Sha256
+     b) random values from ascii and digits
+4) Python code will output the anonymize csv files and saves in the current working dir.
+5) Please use the docker image provided in the repository to run or run the python file manually using python
 
-4) I have created a docker image to run
+pre-requisite: If you are running the python code manually, please install the libraries provided in the requirements.txt
 
-5) Also the folder contains the sample input and output files created from sample run.
+Thank you
+
