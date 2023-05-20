@@ -10,4 +10,3 @@ This code will take generate the csv data required for anonymize the PII data li
 4) I have created a docker image to run
 
 5) Also the folder contains the sample input and output files created from sample run.
-Thank You
